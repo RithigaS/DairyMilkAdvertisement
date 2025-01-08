@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height:160px;
+    background-color: blueviolet;
+    background: linear-gradient(135deg, #4a007e, #1c0030);
+
+
+}
+header h2{
+    margin-top: 10px;
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: 5px;
+    font-family: 'Cursive', 'Lucida Handwriting', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header h3{
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 1rem;
+    font-family: 'Cursive', 'Lucida Handwriting', sans-serif;
+}
+header img{
+    top: 0%;
+    bottom:0%;
+    position: absolute;
+    min-height:150px;
+    max-width: 200px;
+    padding-top: 10px;
+   
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size: 2rem;    
+}
+
+header nav ul li  a{
+    color: gold;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    padding: 25px;
+    
+}
+header nav ul li a:hover{
+    color:wheat;
+
+}
+#About{
+    background: linear-gradient(135deg, #4a007e, #1c0030);    
+
+}
+
+ #About h2{
+    color: goldenrod;
+    
+    font-size: xx-large;
+    font-family: cursive;
+    display: flex;
+    justify-content:center;
+}
+
+#about{
+   
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap:40px;
+}
+#about img{
+    margin:6%;
+    border-radius: 15%;
+    box-shadow: #9720ec;
+    
+}
+
+#about pre {
+    background-color:goldenrod;
+    box-shadow: 0 4px 8px rgba(219, 200, 200, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding: 20px 50px; 
+    color: solid black;
+    font-size: 1.5rem; 
+    font-family:cursive;
+    line-height: 2.8;
+    letter-spacing: normal; 
+    border: 2px solid rgba(8, 8, 8, 0.5); 
+    
+    margin: 10px auto; 
+    width: 40%; 
+}
+#products {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#products h2 {
+    font-size: 2.5em;
+    color: #4B0082;
+    margin-bottom: 20px;
+}
+
+#pro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#pro img {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: linear-gradient(135deg, #4a007e, #1c0030);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#pro img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#Advertisement{
+    background: linear-gradient(135deg, #4a007e, #1c0030);
+    
+}
+#move{
+    width:100%;
+    height:600px;
+    overflow: auto auto;
+    white-space: nowrap;
+    
+}
+#Advertisement h2{
+    text-align: center;
+    font-size: 2.5em;
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+#move{
+    display: flex;
+    overflow-x: auto;
+    gap: 40px; 
+    padding: 20px;
+    
+}
+#move img{
+    height:450px ;
+    width:450px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: whitesmoke;
+    transition: transform 0.3s, box-shadow 0.3s;
+   object-fit: contain;
+
+    
+}
+
+#move #slide{
+    display:inline-block;
+}
+#move img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+ #mar{
+    
+    font-family: cursive;
+    color: antiquewhite;
+    background: linear-gradient(135deg, #4a007e, #1c0030);
+    font-size: larger;
+    font-weight: 900;
+}
+#Reviews{
+    width:100%;
+    height:1000px;
+    
+    
+}
+#Reviews iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  #Contact{
+    gap:55px;
+    width:100%;
+    height:700px;
+    margin: 0;
+    margin-top: 5px;
+    background: linear-gradient(135deg, #4a007e, #e4e3e6);
+    
+  }
+  #Contact form {
+    margin-top: 25px ;
+    background:linear-gradient(360deg,rgb(201, 155, 41),rgb(245, 201, 90), blueviolet, rgb(160, 90, 226));
+    text-align: center;
+    border: 2px solid black;
+    height:550px ;
+    width:550px;
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #Contact form h2{
+    text-align: center;
+    font-size: 3.5em;
+    color: gold(226, 179, 59);
+    margin-bottom: 20px;
+  }
+  
+  #Contact form label {
+    margin-bottom: 10px; 
+    font-size:1.5rem; 
+    font-family: cursive;
+    font-weight: 600;
+  }
+  
+ #Contact input {
+    height: 80px;
+    width: 350px;
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+  
+  #Contact #con {
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #Contact #con img {
+    border-radius: 20px;
+    height:550px ;
+    width:550px;
+    margin-top: 25px;
+  }
+
+  #Button{
+    background-color: blanchedalmond;
+    color: solid black;
+    height: 100px;
+    width:380px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 1.5rem;
+  }
+   #Button:hover{
+    background: linear-gradient(135deg, #4a007e, #1c0030);
+    color: #f9f9f9;
+  }
+  footer{
+    background-image: url('https://images.ctfassets.net/pmzhtobns06n/FylNgIq5k8uYLgdPsRNC3/2d5134c6f611132106fcd3229a9f416e/Cadbury_MilkPourMaster.png?fm=webp&q=80&fm=webp&q=80');
+    background-color:#c597e6;
+    height: 100px;
+    width: 100%;
+  }
+  #foot > * {
+    margin-right: 5px; 
+  }
+#foot{
+    display: flex;
+    justify-content: flex-end;
+}
+#foot img{
+    border-radius: 15px;
+}
+
+  
